@@ -1,30 +1,30 @@
-# Election
+# DeElect
+<br>
 
-## Dependencies
+* We import an account using its private key to metamask after migrating the contract to ganache blockchain
+<br>
 
-Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
+![image](/images/72.png)
+<br>
+* The metamask popup the confirms our vote by asking to pahy some GAS for the transaction
+<br>
 
-- NPM
-- Truffle
-- Ganache
-- Metamask
+![image](/images/73.png)
+<br>
+* After vote has been cast the votecount for the candidate is increased and displayed, now the voter is not eligible to vote anymore
+<br>
 
-## Step 1. Start Ganache
+![image](/images/74.png)
+<br>
+* Then we select another voter using metamask extention
+<br>
 
-Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. See free video tutorial for full explanation.
+![image](/images/75.png)
+<br>
+* After casting vote from that account we see that candidate-1 has 2 votes
+<br>
 
-## Step 2. Compile & Deploy Election Smart Contract
-
-`truffle migrate --reset`
-You must migrate the election smart contract each time your restart ganache.
-
-## Step 3. Configure Metamask
-
-- Unlock Metamask
-- Connect metamask to your local Etherum blockchain provided by Ganache.
-- Import an account provided by ganache.
-
-## Step 4. Run the Front End Application
-
-`npm run dev`
-Visit this URL in your browser: http://localhost:3000
+![image](/images/76.png)
+<br>
+<br>
+* Now we can add more accounts to take part in the election to vote
